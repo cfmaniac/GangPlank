@@ -1,0 +1,40 @@
+body{
+font-family: Colibri, Verdana, Arial, Helvetica, sans-serif;
+font-size: 70%;
+}
+
+.odd{ background-color:#CCCCCC;}
+
+label{
+	display: block;
+	width: 15em;
+	font-weight: bold;
+	height: 2em;
+	float:left;
+	clear:left;
+	
+}
+input {
+	margin: .3em 0;
+}
+
+input, textarea{
+	width: 30em;
+}
+textarea{
+	height: 10em;
+}
+
+input.submit {
+	width: auto;
+}
+
+
+th{
+	text-align: left;
+	background-color:#333333;
+	color: #FFFFFF;
+}
+td{
+	vertical-align: top;
+}

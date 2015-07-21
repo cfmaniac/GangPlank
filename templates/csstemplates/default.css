@@ -1,0 +1,65 @@
+body{
+font-family: Colibri, Verdana, Arial, Helvetica, sans-serif;
+font-size: 70%;
+}
+
+.odd{ background-color:#CCCCCC;}
+
+label{
+	display: block;
+	width: 15em;
+	font-weight: bold;
+	height: 2em;
+	float:left;
+	clear:left;
+	
+}
+
+label.radio{
+	float: left;
+	width: auto;
+	clear: none;
+	padding-right: .5em;	
+}
+
+input {
+	margin: .3em 0;
+}
+
+input, textarea{
+	width: 30em;
+}
+
+input.radio, input.checkbox{
+	width: auto;
+	clear: both;
+}
+
+textarea{
+	height: 10em;
+}
+
+input.submit {
+	width: auto;
+}
+
+
+th{
+	text-align: left;
+	background-color:#333333;
+	color: #DDDDDD;
+}
+td{
+	vertical-align: top;
+}
+
+.alert{
+	color: #F88017;
+	border: 1px solid #F88017;
+	background-color: #FFF8C6;
+	padding: 3px;
+	margin: 5px 2px 10px 2px;
+	font-weight: bold;
+
+}
+
